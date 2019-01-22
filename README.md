@@ -10,7 +10,7 @@ Build hotel widget using .net core MVC and Angular
  
 Develop a widget that displays a list of hotels
 
-This project is built by .Net Core MVC and Angular 5
+This project is built by .Net Core MVC and Angular 6
 
 The widget requirements:
 
@@ -32,6 +32,8 @@ The widget requirements:
 
 1. Using Visual Studios to open project
 
-2. Run commandline ng build --watch in clientapp folder
+2. Using Visual Code to open ClientApp folder and run npm install in console
+
+2. Run ng build --watch in console after packages installment finish
 
 3. Build the project and run
