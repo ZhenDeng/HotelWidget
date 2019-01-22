@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="panel-group">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Hotels in New York <button class="btn btn-primary refreshbutton" (click)="refreshHotels()"><i class="fa fa-sync-alt"></i></button></div>
+      <div class="panel-body">
+        <div class="row hotelbox" *ngFor="let hotel of hotels">
+          <div class="col-md-4 col-sm-4 col-xs-4">
+            <img src="/images/Hotels/{{hotel.image}}" class="img-responsive" />
+          </div>
+          <div class="col-md-8 col-sm-8 col-xs-8">
+            <div class="text-left">{{hotel.name}} <app-star [starRating]="hotel.starRating"></app-star></div>
+            <div class="text-left">From {{hotel.rate | currency:'USD':symbol}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

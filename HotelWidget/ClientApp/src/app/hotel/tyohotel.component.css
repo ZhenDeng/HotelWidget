@@ -1,0 +1,35 @@
+.container {
+  width: 300px !important;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.hotelbox {
+  margin: 30px 0;
+  padding-bottom: 20px;
+  border-bottom: 2px solid gray;
+}
+
+  .hotelbox:last-of-type {
+    border: none;
+    padding-bottom: 0;
+  }
+
+.well {
+  margin-bottom: 0 !important;
+  padding: 10px !important;
+}
+
+.hotelinfo {
+  margin-left: 10px;
+}
+
+.panel-body {
+  padding: 0 !important;
+}
+
+.refreshbutton {
+  display: inline;
+  margin-left: 99px;
+}
